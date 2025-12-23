@@ -3,6 +3,9 @@
   padding: 0px;
 }
 
+
+
+
 body {
     background-color: #6dc068;
     min-height: 100vh;
@@ -17,21 +20,58 @@ p {
   font-size: 20px;
 }
 
+img {
+  width: 40%;
+}
+
+#three-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#five-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.no-tree {
+  width: 20%;
+}
+
+.door {
+  width: 20%;
+}
+
+
 .wholepage {
     position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
     display: flex;
+    flex-direction: column;
 }
 
-.johnny {
-  width: 40%;
+.above {
+  flex: 1;
 }
 
 
-#text-box {
+.text-box {
     position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+  flex: 1;
+}
+
+.text {
+  flex: 2;
 }
 
 
