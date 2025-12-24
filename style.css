@@ -36,11 +36,31 @@ img {
   outline: none;
 }
 
+#six-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+#seven-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+#eight-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .no-tree {
-  width: 20%;
+  width: 10%;
 }
 
 .door {
+  width: 10%;
+}
+
+.dave {
   width: 20%;
 }
 
@@ -55,7 +75,7 @@ img {
 }
 
 .above {
-  flex: 1;
+  flex: 3;
 }
 
 
