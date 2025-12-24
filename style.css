@@ -52,6 +52,22 @@ img {
   outline: none;
 }
 
+#thirteen-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+#fourteen-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+#fifteen-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .no-tree {
   width: 10%;
 }
