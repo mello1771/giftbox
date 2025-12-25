@@ -26,10 +26,11 @@ const dialogue3 = [
 ]
 
 const noteDialogue = [
-    "filler",
-    "filler",
-    "filler",
-    "endfiller"
+    "i need five candles",
+    "nine bags of dog chow",
+    "three ribbons",
+    "one gift bag",
+    "and four puppies!"
 ]
 
 const bathroomDialogue = [
@@ -37,10 +38,7 @@ const bathroomDialogue = [
 ]
 
 const mirrorDialogue = [
-    "filler",
-    "filler",
-    "filler",
-    "endfiller"
+    "it says: '39201'"
 ]
 
 const finalDialogue = [
@@ -122,7 +120,7 @@ if (seven) {
 
 code1 = false;
 code2 = false;
-code1Value = 59304;
+code1Value = 59314;
 code2Value = 39201;
 eightIndex = 0;
 eightIndex1 = 0;
@@ -169,7 +167,7 @@ if (eight) {
 
 if (ten) {
     ten.addEventListener("click", function() {
-        textChange(noteDialogue, "text4", "note-text", "", "kitchen.html", true, 1);
+        textChange(noteDialogue, "text4", "note-text", "", "kitchen.html", true, 0);
     })
 }
 
@@ -214,7 +212,7 @@ if (fifteen) {
 
 if (sixteen) {
     sixteen.addEventListener("click", function() {
-        textChange(mirrorDialogue, "text6", "mirror-text", "", "bathroom.html", true, 1);
+        textChange(mirrorDialogue, "text6", "mirror-text", "", "bathroom.html", true, 0);
     })
 }
 

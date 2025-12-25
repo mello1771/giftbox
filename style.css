@@ -3,25 +3,56 @@
   padding: 0px;
 }
 
-
+@font-face {
+    font-family: 'concert-one';
+    src: url("assets/concert-one.ttf")
+}
 
 
 body {
     background-color: #6dc068;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    font-family: "concert-one";
 }
 
-p {
-  margin: 30px;
-  padding: 30px;
-  font-size: 20px;
+h1 {
+  font-size: 50px;
+  color:#264424;
+}
+
+h2 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  color: #31572e;
 }
 
 img {
   width: 40%;
+  /*object-fit: cover;*/
+}
+
+#code-input {
+  padding: 12px 15px;
+  margin: 2px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(52, 23, 23, 0.2);
+  background-color: #bb5858;
+  font-family: 'concert-one';
+}
+
+#code-input::placeholder {
+  color: #862020;
+}
+
+.final-images img {
+  width: 20%;
 }
 
 #three-button {
@@ -52,6 +83,22 @@ img {
   outline: none;
 }
 
+#eleven-button {
+  padding: 10px 13px;
+  margin: 2px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(52, 23, 23, 0.2);
+  color: #862020;
+  background-color: #bb5858;
+  font-family: 'concert-one';
+}
+
+#eleven-button:hover {
+  background-color:#b05454;
+  box-shadow: 0 6px 10px 0 rgba(52, 23, 23, 0.2);
+}
+
 #thirteen-button {
   background-color: transparent;
   border: none;
@@ -68,19 +115,45 @@ img {
   outline: none;
 }
 
+.normal {
+  padding: 20px 26px;
+  margin: 5px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(52, 23, 23, 0.2);
+  background-color: #bb5858;
+  color: #862020;
+  font-family: 'concert-one';
+}
+
+.normal:hover {
+  background-color:#b05454;
+  box-shadow: 0 6px 10px 0 rgba(52, 23, 23, 0.2);
+
+}
+
+
 .no-tree {
-  width: 10%;
+  width: 20%;
 }
 
 .door {
-  width: 10%;
+  width: 20%;
 }
 
 .dave {
   width: 20%;
 }
 
+.table {
+  width: 60%;
+}
 
+.mirror {
+  width: 60%;
+}
+
+/*
 .wholepage {
     position: relative;
     justify-content: center;
@@ -89,9 +162,36 @@ img {
     display: flex;
     flex-direction: column;
 }
+*/
 
 .above {
-  flex: 3;
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+#one {
+  flex: 1;
+  text-align: center;
+}
+
+#two {
+  flex: 1;
+  text-align: center;
+}
+
+#three {
+  flex: 1;
+  text-align: center;
+}
+
+#four {
+  flex: 1;
+  text-align: center;
 }
 
 
